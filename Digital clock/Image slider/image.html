@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Slider</title>
+    
+    <link rel="stylesheet" href="slider.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://images.unsplash.com/photo-1581791534721-e599df4417f7?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aGltYWNoYWwlMjBwcmFkZXNofGVufDB8fDB8fHww" id="content1" class="active">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Kinnaur_Kailash.jpg/1200px-Kinnaur_Kailash.jpg" id="content2">
+            <img src="https://i.ytimg.com/vi/Lr2Xur5I-NU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBTKM1bb6_1CrrLr07MY3ry_HzC_g" id="content3">
+            <img src="https://c.ndtvimg.com/gws/ms/places-to-visit-in-himachal-pradesh/assets/2.jpeg?1738928984" id="content4">
+            <img src="https://assets.cntraveller.in/photos/66ab6453fe4fdad0450b3402/16:9/w_1024%2Cc_limit/GettyImages-1580694292.jpg" id="content5">
+        </div>
+        <div class="dot-container">
+            <button onclick = "dot(1)"></button>
+            <button onclick = "dot(2)"></button>
+            <button onclick = "dot(3)"></button>
+            <button onclick = "dot(4)"></button>
+            <button onclick = "dot(5)"></button>
+        </div>
+        <button id="prev" onclick="prev()"> &lt; </button>
+        <button id="next" onclick="next()"> &gt; </button>
+    </div>
+    <script src="imageslider.js"></script>
+</body>
+</html>
